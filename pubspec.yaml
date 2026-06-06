@@ -37,6 +37,15 @@ dependencies:
   collection: ^1.18.0
   tflite_v2:
     path: plugins/tflite_v2
+  
+  http: ^1.2.0
+  sensors_plus: ^7.0.0
+  dart_openai: ^5.1.0
+  just_audio: ^0.9.36          # plays the TTS mp3 bytes
+  path_provider: ^2.1.3        # temp file for audio
+  speech_to_text: ^7.4.0
+  flutter_tts: ^4.2.5          # fallback device TTS  
+  vibration: ^3.1.8
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
